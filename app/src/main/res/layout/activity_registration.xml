@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.connector.View.RegistrationActivity">
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/lb_newAcc"
+    android:textAlignment="center"
+    android:padding="10dp"
+    android:textSize="20sp" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:padding="10dp"
+    android:text="@string/lb_loginLabel"
+    android:textAlignment="center"
+    />
+
+<EditText
+    android:id="@+id/tf_phoneNumber"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:inputType="phone"
+    android:textAlignment="center" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:text="@string/lb_name"
+    android:textAlignment="center" />
+
+<EditText
+    android:id="@+id/tf_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:textAlignment="center" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:text="@string/lb_referal"
+    android:textAlignment="center" />
+
+<EditText
+    android:id="@+id/tf_referal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:textAlignment="center" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:text="@string/lb_passwordLabel"
+    android:textAlignment="center" />
+
+<EditText
+    android:id="@+id/tf_passwordInReg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:textAlignment="center"
+    android:inputType="textPassword" />
+
+<TextView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:text="@string/lb_confirm"
+    android:textAlignment="center" />
+
+<EditText
+    android:id="@+id/tf_passwordConfirm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:textAlignment="center"
+    android:inputType="textPassword" />
+
+
+<Button
+    android:id="@+id/btn_registrationButtoninRegistrationView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="registration"
+    android:text="@string/btn_registrationButton" />
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Connector</string>
+
+    <string name="lb_auth">Авторизация</string>
+    <string name="lb_app">Connector</string>
+    <string name="lb_phoneNumber">Введите номер БЕЗ КОДА и нажмите кнопку вызова</string>
+    <string name="lb_operatorCode">071-</string>
+
+    <string name="lb_greeting1Str">Добро пожаловать в программму Connector :)</string>
+    <string name="lb_greeting2Str">Войдите или отправьте запрос на регистрацию</string>
+    <string name="lb_loginLabel">Введите свой номер телефона в формате 0501234567</string>
+    <string name="lb_loginLabel_toolTip">Введите СВОЙ номер телефона сюда</string>
+    <string name="lb_passwordLabel">Введите пароль</string>
+    <string name="lb_passwordLabel_toolTip">Введите свой пароль сюда</string>
+    <string name="lb_newAcc">Новый аккаунт</string>
+    <string name="btn_loginButton">Войти</string>
+    <string name="btn_registrationButton">Регистрация</string>
+    <string name="btn_exitButton">Выход</string>
+
+
+    <string name="lb_name">Введите Ваши Фамилию и Имя</string>
+    <string name="lb_referal">От кого получили программу</string>
+    <string name="lb_confirm">Подтвердите пароль(Введите еще раз)</string>
+    <string name="lb_status">Статус: </string>
+
+
+    <string name="msg_invalidPhoneNumberSimbols">В номере телефона должны быть только цифры</string>
+    <string name="msg_invalidPhoneNumberQuant">В номере телефона должно быть 7 цифр</string>
+    <string name="msg_invalidPhoneNumberQuant10">В номере телефона должно быть 10 цифр</string>
+    <string name="msg_invalidConfirm">Пароль не подтвержден</string>
+    <string name="msg_regSuccess">Регистрация успешна.\nОжидайте подтверждения</string>
+    <string name="msg_regFail">Ошибка регистрации.\nПричина: </string>
+    <string name="msg_netFail">Ошибка сети</string>
+</resources>
